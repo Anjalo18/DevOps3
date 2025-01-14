@@ -1,0 +1,18 @@
+services:
+  vm1:
+    build: .
+    image: vm1
+    ports:
+      - "2201:22"
+
+  vm2:
+   build: .
+   image: vm2
+   ports:
+     - "2202:22"
+
+  vm3:
+   build: .
+   image: vm3
+   ports:
+     - "2203:22"
