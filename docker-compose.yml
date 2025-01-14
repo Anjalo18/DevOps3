@@ -1,18 +1,24 @@
 services:
   vm1:
     build: .
+    # Specify the image name for the container
     image: vm1
+    # Map port 2201 on the host to port 22 in the container
     ports:
       - "2201:22"
 
   vm2:
    build: .
+   # Specify the image name for the container
    image: vm2
+   # Map port 2202 on the host to port 22 in the container
    ports:
      - "2202:22"
 
   vm3:
    build: .
+   # Specify the image name for the container
    image: vm3
+   # Map port 2203 on the host to port 22 in the container
    ports:
      - "2203:22"
