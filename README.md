@@ -24,8 +24,8 @@ Before starting, ensure you have the following installed:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/Anjalo18/DevOps3.git
+cd DevOps3
 ```
 
 ---
@@ -48,10 +48,6 @@ This will:
 ### Step 3: Generate the Ansible Inventory File
 
 Run the `inventory.sh` script to generate an `inventory.ini` file with the IP addresses of the containers:
-
-```bash
-docker exec -it <any-container-name> sh inventoty.sh
-```
 
 This script will:
 1. Inspect the running Docker containers (`vm1`, `vm2`, `vm3`) for their IP addresses.
